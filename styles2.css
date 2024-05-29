@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(242, 238, 210); /* Light beige background for visibility */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 0px;
+    background-color: rgb(62,62,62);
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: -560px;
+}
+header .logo {
+    font-size: 2em;
+    margin-left: 60px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-family: cursive;
+}
+
+header nav a {
+    margin: 0 15px;
+    font-size: 1.4em;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    text-underline-offset: 11px;
+    text-decoration-thickness: 2px;
+    opacity: 0.7;
+}
+
+.nav:active {
+    font-size: 1.6em;
+    opacity: 0.5;
+}
+
+.nav:focus {
+    font-size: 1.4em;
+    color: rgb(157, 217, 242);
+}
+
+header .ambassador {
+    background-color: #555;
+    margin-right: 60px;
+    font-size: 1.3em;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.ambassador {
+    transition: all 0.3s ease;
+}
+  
+.ambassador:hover {
+    opacity: 0.7;
+}
+  
+.ambassador:active {
+    font-size: 1.5em;
+    padding: 8px 16px;
+    width: fit-content;
+    padding: 10px;
+}
+  
+.ambassador:focus {
+    font-size: 1.3em;
+    padding: 10px 20px;
+    width: fit-content;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px; /* Increased gap between books */
+    padding: 20px; /* Added padding for the entire container */
+    
+}
+
+.book {
+    width: 400px;
+    background-color: rgb(242, 238, 210);
+    margin: 4px; /* Added margin for each book */
+    margin-bottom: -40px;
+    opacity: 0.9;
+}
+
+.book img {
+    width: 100%;
+    height: auto;
+}
+
+.book:active {
+    opacity: 0.4;
+}
+
+.book:focus {
+    opacity: 0.4;
+}

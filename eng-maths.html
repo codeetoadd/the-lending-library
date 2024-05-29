@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="styles4.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">TLL</div>
+        <nav>
+            <a href="purchase.html">Buy</a>
+            <a href="sell.html">Sell</a>
+            <a href="#">Join your university</a>
+        </nav>
+        <button class="ambassador">Become a Student Ambassador</button>
+    </header>
+
+    <main>
+        <div class="product-container">
+            <div class="product-images">
+                <div class="image-scroller">
+                    <img src="a.jpg" alt="Product Image 1">
+                    <img src="b.jpg" alt="Product Image 2">
+                    <img src="c.jpg" alt="Product Image 3">
+                    <img src="d.jpg" alt="Product Image 3">
+                </div>
+            </div>
+            <div class="product-details">
+                <h1>Engineering Mathematics 1</h1>
+                <p class="price">330 /-</p>
+                <p class="description">
+                   New book. Used for 4 months only. No torn/worn pages. 
+                   Authors- NP Bali and HK Das.
+                </p>
+                <button class="buy-now" onclick="playGif()">Buy Now</button>
+                <!-- Add a div to contain the GIF -->
+                <div class="gif-container">
+                    <img src="book-success.gif" alt="Loading GIF">
+                </div>
+            </div>
+        </div>
+        <script>
+            function playGif() {
+                const gifContainer = document.querySelector('.gif-container');
+                gifContainer.style.display = 'flex';
+                // You can also add a timeout to hide the GIF after a certain time
+                setTimeout(() => {
+                    gifContainer.style.display = 'none';
+                }, 2900); // 3 seconds
+            }
+        </script>
+    </main>
+</body>
+</html>

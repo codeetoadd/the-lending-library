@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('sell-bg.png');
+    background-size: cover;
+    background-position: center center;
+}
+
+header {
+    background-color: rgb(62, 62, 62);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: -560px;
+}
+header .logo {
+    font-size: 2em;
+    margin-left: 60px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-family: cursive;
+}
+
+header nav a {
+    margin: 0 15px;
+    font-size: 1.4em;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    text-underline-offset: 11px;
+    text-decoration-thickness: 2px;
+    opacity: 0.7;
+}
+
+.nav:active {
+    font-size: 1.6em;
+    opacity: 0.5;
+}
+
+.nav:focus {
+    font-size: 1.4em;
+    color: rgb(157, 217, 242);
+}
+
+header .ambassador {
+    background-color: #555;
+    margin-right: 60px;
+    font-size: 1.3em;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.ambassador {
+    transition: all 0.3s ease;
+}
+  
+.ambassador:hover {
+    opacity: 0.7;
+}
+  
+.ambassador:active {
+    font-size: 1.5em;
+    padding: 8px 16px;
+    width: fit-content;
+    padding: 10px;
+}
+  
+.ambassador:focus {
+    font-size: 1.3em;
+    padding: 10px 20px;
+    width: fit-content;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding-top: 60px;
+    box-sizing: border-box;
+}
+
+
+.content {
+    margin-right: 20px;
+    margin-left: 540px;
+    margin-top: -90px;
+}
+
+.content p {
+    font-size: 2.8em;
+    text-align: left;
+    color: rgb(1,147,174);
+}
+
+.content button {
+    display: block;
+    width: 400px;
+    margin-top: -2px;
+    margin-bottom: 25px;
+    padding: 18px;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 2em;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button {
+    transition: all 0.3s ease;
+}
+  
+button:hover {
+    opacity: 0.7;
+}
+  
+button:active {
+    font-size: 2.1em;
+    width: 420px;
+    padding: 22px;
+}
+  
+button:focus {
+    font-size: 2em;
+}
+
+.lend {
+    background-color: rgb(1,147,174);
+    color: #fff;
+    border: none;
+}
+
+.calculate {
+    background-color: rgb(242, 238, 210);
+    color: rgb(1,147,174);
+    border: 2px solid rgb(1,147,174);;
+}

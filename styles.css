@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(242, 238, 210);
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(62,62,62);
+    color: #fff;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: -600px;
+  }
+header .logo {
+    font-size: 2em;
+    margin-left: 60px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-family: cursive;
+}
+
+header nav a {
+    margin: 0 15px;
+    font-size: 1.4em;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    text-underline-offset: 11px;
+    text-decoration-thickness: 2px;
+    opacity: 0.7;
+}
+
+.nav:active {
+    font-size: 1.6em;
+    opacity: 0.5;
+}
+
+.nav:focus {
+    font-size: 1.4em;
+    color: rgb(157, 217, 242);
+}
+
+header .ambassador {
+    background-color: #555;
+    margin-right: 60px;
+    font-size: 1.3em;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.ambassador {
+    transition: all 0.3s ease;
+}
+  
+.ambassador:hover {
+    opacity: 0.7;
+}
+  
+.ambassador:active {
+    font-size: 1.5em;
+    padding: 8px 16px;
+    width: fit-content;
+    padding: 10px;
+}
+  
+.ambassador:focus {
+    font-size: 1.3em;
+    padding: 10px 20px;
+    width: fit-content;
+}
+
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.content {
+    margin-right: 20px;
+    margin-left: -740px;
+    margin-top: -90px;
+}
+
+.content p {
+    font-size: 3em;
+    text-align: left;
+    color: rgb(224, 62, 15);
+}
+
+.content button {
+    display: block;
+    width: 360px;
+    margin-top: -2px;
+    margin-bottom: 25px;
+    padding: 18px;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 1.6em;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button {
+    transition: all 0.3s ease;
+}
+
+  
+button:active {
+    font-size: 1.7em;
+    width: 380px;
+    padding: 22px;
+}
+  
+button:focus {
+    font-size: 1.6em;
+}
+
+.login {
+    background-color: rgb(224, 62, 15);
+    color: #fff;
+    border: none;
+}
+
+.signup {
+    background-color: rgb(242, 238, 210);
+    color: rgb(224, 62, 15);
+    border: 2px solid rgb(224, 62, 15);
+}
+
+.image-container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: -18px;
+    margin-right: 80px;
+    width: 680px;
+    height: auto;
+}
+
+.image-container img {
+    width: 100%;
+}
