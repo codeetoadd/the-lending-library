@@ -8,6 +8,8 @@ The Lending Library is a platform designed to empower university students by pro
 It aims to reduce the financial burden on students, promote the reuse of study materials, and create a thriving community of knowledge sharing. 
 The platform offers a seamless experience for discovering, lending, and renting academic resources, making it a one-stop solution for students' book-related needs.
 
+&nbsp;
+
 ## 🌟 Key Features
 
 1. **Rent Books** = Browse from a wide collection of books available for rent, sorted by subjects and courses.
