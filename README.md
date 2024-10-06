@@ -12,9 +12,9 @@ The platform offers a seamless experience for discovering, lending, and renting 
 
 ## 🌟 Key Features
 
-1. **Rent Books** : Browse from a wide collection of books available for rent, sorted by subjects and courses.
-2. **Lend Your Books** : Students can post books they want to lend, set a price, and find potential borrowers.
-3. **Book Reviews & Ratings** : Rate and review books to help others in the community make informed decisions.
-4. **Seamless Communication** : Contact book owners directly through the platform.
-5. **Price Calculator** : Calculate rental prices based on book condition and duration.
-6. **Book Donations** : We also take donations from and for school students and give them away for the ones who need it.
+1. **Rent Books**: Browse from a wide collection of books available for rent, sorted by subjects and courses.
+2. **Lend Your Books**: Students can post books they want to lend, set a price, and find potential borrowers.
+3. **Book Reviews & Ratings**: Rate and review books to help others in the community make informed decisions.
+4. **Seamless Communication**: Contact book owners directly through the platform.
+5. **Price Calculator**: Calculate rental prices based on book condition and duration.
+6. **Book Donations**: We also take donations from and for school students and give them away for the ones who need it.
